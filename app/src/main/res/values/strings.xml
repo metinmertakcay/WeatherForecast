@@ -1,0 +1,1331 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="main">Günlük hava durumu</string>
+    <string name="spinner_second_not_first">Önce il seçiniz</string>
+    <string name="spinner_second">İlçe seçiniz</string>
+    <string name="prmt">İl seçiniz --></string>
+    <string name="goster">Göster</string>
+    <string name="back">Back</string>
+    <string name="bugun">Bugün</string>
+    <string name="yarin">Yarın</string>
+    <string name="tarih">Tarih</string>
+    <string name="hava">Hava</string>
+    <string name="gunduz">Gündüz</string>
+    <string name="gece">Gece</string>
+    <string name="offline">You appear offline</string>
+    <string name="ilce">İlçe seçiniz --></string>
+    <string name="konum">Konum göster</string>
+
+    <string-array name="arrProvinces">
+        <item>İl seçiniz</item>
+        <item>Adana</item>
+        <item>Adıyaman</item>
+        <item>Afyonkarahisar</item>
+        <item>Ağrı</item>
+        <item>Aksaray</item>
+        <item>Amasya</item>
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Ardahan</item>
+        <item>Artvin</item>
+        <item>Aydın</item>
+        <item>Balıkesir</item>
+        <item>Bartın</item>
+        <item>Batman</item>
+        <item>Bayburt</item>
+        <item>Bilecik</item>
+        <item>Bingöl</item>
+        <item>Bitlis</item>
+        <item>Bolu</item>
+        <item>Burdur</item>
+        <item>Bursa</item>
+        <item>Çanakkale</item>
+        <item>Çankırı</item>
+        <item>Çorum</item>
+        <item>Denizli</item>
+        <item>Diyarbakır</item>
+        <item>Düzce</item>
+        <item>Edirne</item>
+        <item>Elazığ</item>
+        <item>Erzincan</item>
+        <item>Erzurum</item>
+        <item>Eskişehir</item>
+        <item>Gaziantep</item>
+        <item>Giresun</item>
+        <item>Gümüşhane</item>
+        <item>Hakkari</item>
+        <item>Hatay</item>
+        <item>Iğdır</item>
+        <item>Isparta</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+        <item>Kahramanmaraş</item>
+        <item>Karabük</item>
+        <item>Karaman</item>
+        <item>Kars</item>
+        <item>Kastamonu</item>
+        <item>Kayseri</item>
+        <item>Kilis</item>
+        <item>Kırıkkale</item>
+        <item>Kırklareli</item>
+        <item>Kırşehir</item>
+        <item>Kocaeli</item>
+        <item>Konya</item>
+        <item>Kütahya</item>
+        <item>Malatya</item>
+        <item>Manisa</item>
+        <item>Mardin</item>
+        <item>Mersin</item>
+        <item>Muğla</item>
+        <item>Muş</item>
+        <item>Nevşehir</item>
+        <item>Niğde</item>
+        <item>Ordu</item>
+        <item>Osmaniye</item>
+        <item>Rize</item>
+        <item>Sakarya</item>
+        <item>Samsun</item>
+        <item>Şanlıurfa</item>
+        <item>Siirt</item>
+        <item>Sinop</item>
+        <item>Şırnak</item>
+        <item>Sivas</item>
+        <item>Tekirdağ</item>
+        <item>Tokat</item>
+        <item>Trabzon</item>
+        <item>Tunceli</item>
+        <item>Uşak</item>
+        <item>Van</item>
+        <item>Yalova</item>
+        <item>Yozgat</item>
+        <item>Zonguldak</item>
+    </string-array>
+
+    <string-array name="p0">
+        <item>Önce il seçiniz</item>
+    </string-array>
+
+    <string-array name="p1">
+        <item>Şehir Merkezi</item>
+        <item>Aladağ</item>
+        <item>Ceyhan</item>
+        <item>Çukurova</item>
+        <item>Feke</item>
+        <item>İmamoğlu</item>
+        <item>Karaisalı</item>
+        <item>Karataş</item>
+        <item>Kozan</item>
+        <item>Pozantı</item>
+        <item>Saimbeyli</item>
+        <item>Sarıçam</item>
+        <item>Seyhan</item>
+        <item>Tufanbeyli</item>
+        <item>Yumurtalık</item>
+        <item>Yüreğir</item>
+    </string-array>
+    
+    <string-array name="p2">
+        <item>Şehir Merkezi</item>
+        <item>Besni</item>
+        <item>Çelikhan</item>
+        <item>Gerger</item>
+        <item>Gölbaşı</item>
+        <item>Kahta</item>
+        <item>Samsat</item>
+        <item>Sincik</item>
+        <item>Tut</item>
+    </string-array>
+
+    <string-array name="p3">
+        <item>Şehir Merkezi</item>
+        <item>Başmakçı</item>
+        <item>Bayat</item>
+        <item>Bolvadin</item>
+        <item>Çay</item>
+        <item>Çobanlar</item>
+        <item>Dazkırı</item>
+        <item>Dinar</item>
+        <item>Emirdağ</item>
+        <item>Evciler</item>
+        <item>Hocalar</item>
+        <item>İhsaniye</item>
+        <item>İscehisar</item>
+        <item>Kızılören</item>
+        <item>Sandıklı</item>
+        <item>Sinanpaşa</item>
+        <item>Şuhut</item>
+        <item>Sultandağı</item>
+    </string-array>
+
+    <string-array name="p4">
+        <item>Şehir Merkezi</item>
+        <item>Diyadin</item>
+        <item>Doğubeyazıt</item>
+        <item>Eleşkirt</item>
+        <item>Hamur</item>
+        <item>Patnos</item>
+        <item>Taşlıçay</item>
+        <item>Tutak</item>
+    </string-array>
+
+    <string-array name="p5">
+        <item>Şehir Merkezi</item>
+        <item>Ağaçören</item>
+        <item>Eskil</item>
+        <item>Gülağaç</item>
+        <item>Güzelyurt</item>
+        <item>Ortaköy</item>
+        <item>Sarıyahşi</item>
+    </string-array>
+
+    <string-array name="p6">
+        <item>Şehir Merkezi</item>
+        <item>Göynücek</item>
+        <item>Gümüşhacıköy</item>
+        <item>Hamamözü</item>
+        <item>Merzifon</item>
+        <item>Suluova</item>
+        <item>Taşova</item>
+    </string-array>
+
+    <string-array name="p7">
+        <item>Şehir Merkezi</item>
+        <item>Akyurt</item>
+        <item>Altındağ</item>
+        <item>Ayaş</item>
+        <item>Bala</item>
+        <item>Beypazarı</item>
+        <item>Çamlıdere</item>
+        <item>Çankaya</item>
+        <item>Çubuk</item>
+        <item>Elmadağ</item>
+        <item>Etimesgut</item>
+        <item>Evren</item>
+        <item>Gölbaşı</item>
+        <item>Güdül</item>
+        <item>Haymana</item>
+        <item>Kalecik</item>
+        <item>Kazan</item>
+        <item>Keçiören</item>
+        <item>Kızılcahamam</item>
+        <item>Mamak</item>
+        <item>Nallıhan</item>
+        <item>Polatlı</item>
+        <item>Pursaklar</item>
+        <item>Sincan</item>
+        <item>Şereflikoçhisar</item>
+        <item>Yenimahalle</item>
+    </string-array>
+
+    <string-array name="p8">
+        <item>Şehir Merkezi</item>
+        <item>Akseki</item>
+        <item>Aksu</item>
+        <item>Alanya</item>
+        <item>Döşemealtı</item>
+        <item>Elmalı</item>
+        <item>Finike</item>
+        <item>Gazipaşa</item>
+        <item>Gündoğmuş</item>
+        <item>İbradi</item>
+        <item>Kale</item>
+        <item>Kaş</item>
+        <item>Kemer</item>
+        <item>Kepez</item>
+        <item>Konyaaltı</item>
+        <item>Korkuteli</item>
+        <item>Kumluca</item>
+        <item>Manavgat</item>
+        <item>Muratpaşa</item>
+        <item>Serik</item>
+    </string-array>
+
+    <string-array name="p9">
+        <item>Şehir Merkezi</item>
+        <item>Çıldır</item>
+        <item>Damal</item>
+        <item>Göle</item>
+        <item>Hanak</item>
+        <item>Posof</item>
+    </string-array>
+
+    <string-array name="p10">
+        <item>Şehir Merkezi</item>
+        <item>Ardanuç</item>
+        <item>Arhavi</item>
+        <item>Borçka</item>
+        <item>Hopa</item>
+        <item>Murgul</item>
+        <item>Şavşat</item>
+        <item>Yusufeli</item>
+    </string-array>
+
+    <string-array name="p11">
+        <item>Şehir Merkezi</item>
+        <item>Bozdoğan</item>
+        <item>Buharkent</item>
+        <item>Çine</item>
+        <item>Didim</item>
+        <item>Germencik</item>
+        <item>İncirliova</item>
+        <item>Karacasu</item>
+        <item>Karpuzlu</item>
+        <item>Koçarlı</item>
+        <item>Köşk</item>
+        <item>Kuşadası</item>
+        <item>Kuyucak</item>
+        <item>Nazilli</item>
+        <item>Söke</item>
+        <item>Sultanhisar</item>
+        <item>Yenipazar</item>
+    </string-array>
+
+    <string-array name="p12">
+        <item>Şehir Merkezi</item>
+        <item>Ayvalık</item>
+        <item>Balya</item>
+        <item>Bandırma</item>
+        <item>Bigadiç</item>
+        <item>Burhaniye</item>
+        <item>Dursunbey</item>
+        <item>Edremit</item>
+        <item>Erdek</item>
+        <item>Gömeç</item>
+        <item>Gönen</item>
+        <item>Havran</item>
+        <item>İvrindi</item>
+        <item>Kepsut</item>
+        <item>Manyas</item>
+        <item>Marmara</item>
+        <item>Şavaştepe</item>
+        <item>Sıngırdı</item>
+        <item>Susurluk</item>
+    </string-array>
+
+    <string-array name="p13">
+        <item>Şehir Merkezi</item>
+        <item>Amasra</item>
+        <item>Kurucaşile</item>
+        <item>Ulus</item>
+    </string-array>
+
+    <string-array name="p14">
+        <item>Şehir Merkezi</item>
+        <item>Beşiri</item>
+        <item>Gerçüş</item>
+        <item>Hasankeyf</item>
+        <item>Kozluk</item>
+        <item>Sason</item>
+    </string-array>
+
+    <string-array name="p15">
+        <item>Şehir Merkezi</item>
+        <item>Aydıntepe</item>
+        <item>Demirözü</item>
+    </string-array>
+    
+    <string-array name="p16">
+        <item>Şehir Merkezi</item>
+        <item>Bozüyük</item>
+        <item>Gölpazarı</item>
+        <item>İnhisar</item>
+        <item>Osmaneli</item>
+        <item>Pazaryeri</item>
+        <item>Söğüt</item>
+        <item>Yenipazar</item>
+    </string-array>11
+
+    <string-array name="p17">
+        <item>Şehir Merkezi</item>
+        <item>Adaklı</item>
+        <item>Genç</item>
+        <item>Karlıova</item>
+        <item>Kiğı</item>
+        <item>Solhan</item>
+        <item>Yayladere</item>
+        <item>Yedisu</item>
+    </string-array>
+
+    <string-array name="p18">
+        <item>Şehir Merkezi</item>
+        <item>Adilcevaz</item>
+        <item>Ahlat</item>
+        <item>Bitlis</item>
+        <item>Güroymak</item>
+        <item>Hizan</item>
+        <item>Mutki</item>
+        <item>Tatvan</item>
+    </string-array>
+
+    <string-array name="p19">
+        <item>Şehir Merkezi</item>
+        <item>Dörtdivan</item>
+        <item>Gerede</item>
+        <item>Göynük</item>
+        <item>Kıbrıscık</item>
+        <item>Mengen</item>
+        <item>Mudurnu</item>
+        <item>Seben</item>
+        <item>Yeniçağa</item>
+    </string-array>
+
+    <string-array name="p20">
+        <item>Şehir Merkezi</item>
+        <item>Ağlasun</item>
+        <item>Altınyayla</item>
+        <item>Bucak</item>
+        <item>Çavdır</item>
+        <item>Çeltikçi</item>
+        <item>Gölhisar</item>
+        <item>Karamanlı</item>
+        <item>Kemer</item>
+        <item>Tefenni</item>
+        <item>Yeşilova</item>
+    </string-array>
+
+    <string-array name="p21">
+        <item>Şehir Merkezi</item>
+        <item>Büyükorhan</item>
+        <item>Gemlik</item>
+        <item>Gürsu</item>
+        <item>Harmancık</item>
+        <item>İnegöl</item>
+        <item>İznik</item>
+        <item>Karacabey</item>
+        <item>Keles</item>
+        <item>Kestel</item>
+        <item>Mudanya</item>
+        <item>Mustafakemalpaşa</item>
+        <item>Nilüfer</item>
+        <item>Orhaneli</item>
+        <item>Orhangazi</item>
+        <item>Osmangazi</item>
+        <item>Yenişehir</item>
+        <item>Yıldırım</item>
+    </string-array>
+
+    <string-array name="p22">
+        <item>Şehir Merkezi</item>
+        <item>Ayvacık</item>
+        <item>Bayramiç</item>
+        <item>Biga</item>
+        <item>Bozcaada</item>
+        <item>Çan</item>
+        <item>Çanakkale</item>
+        <item>Eceabat</item>
+        <item>Ezine</item>
+        <item>Gelibolu</item>
+        <item>Gökçeada</item>
+        <item>Lapseki</item>
+        <item>Yenice</item>
+    </string-array>
+
+    <string-array name="p23">
+        <item>Şehir Merkezi</item>
+        <item>Atkaracalar</item>
+        <item>Bayramören</item>
+        <item>Çerkeş</item>
+        <item>Eldivan</item>
+        <item>Ilgaz</item>
+        <item>Kızılırmak</item>
+        <item>Korgun</item>
+        <item>Kurşunlu</item>
+        <item>Orta</item>
+        <item>Şabanözü</item>
+        <item>Yapraklı</item>
+    </string-array>
+
+    <string-array name="p24">
+        <item>Şehir Merkezi</item>
+        <item>Alaca</item>
+        <item>Bayat</item>
+        <item>Boğazkale</item>
+        <item>Dodurga</item>
+        <item>İskilip</item>
+        <item>Kargı</item>
+        <item>Laçin</item>
+        <item>Macitözü</item>
+        <item>Oğuzlar</item>
+        <item>Ortaköy</item>
+        <item>Osmancık</item>
+        <item>Sungurlu</item>
+        <item>Uğurludağ</item>
+    </string-array>
+
+    <string-array name="p25">
+        <item>Şehir Merkezi</item>
+        <item>Acıpayam</item>
+        <item>Akköy</item>
+        <item>Babadağ</item>
+        <item>Baklan</item>
+        <item>Bekilli</item>
+        <item>Beyağaç</item>
+        <item>Bozkurt</item>
+        <item>Buldan</item>
+        <item>Çal</item>
+        <item>Çameli</item>
+        <item>Çardak</item>
+        <item>Çivril</item>
+        <item>Güney</item>
+        <item>Honaz</item>
+        <item>Kale</item>
+        <item>Sarayköy</item>
+        <item>Serinhisar</item>
+        <item>Tavas</item>
+    </string-array>
+
+    <string-array name="p26">
+        <item>Şehir Merkezi</item>
+        <item>Bağlar</item>
+        <item>Bismil</item>
+        <item>Çermik</item>
+        <item>Çınar</item>
+        <item>Çüngüş</item>
+        <item>Dicle</item>
+        <item>Eğil</item>
+        <item>Ergani</item>
+        <item>Hani</item>
+        <item>Hazro</item>
+        <item>Kayapınar</item>
+        <item>Kocaköy</item>
+        <item>Kulp</item>
+        <item>Lica</item>
+        <item>Silvan</item>
+        <item>Sur</item>
+        <item>Yenişehir</item>
+    </string-array>
+
+    <string-array name="p27">
+        <item>Şehir Merkezi</item>
+        <item>Akçakoca</item>
+        <item>Cumayeri</item>
+        <item>Çilimli</item>
+        <item>Gölyaka</item>
+        <item>Gümüşova</item>
+        <item>Kaynaşlı</item>
+        <item>Yığılca</item>
+    </string-array>
+
+    <string-array name="p28">
+        <item>Şehir Merkezi</item>
+        <item>Enez</item>
+        <item>Havsa</item>
+        <item>İpsala</item>
+        <item>Keşan</item>
+        <item>Lalapaşa</item>
+        <item>Meriç</item>
+        <item>Süloğlu</item>
+        <item>Uzunköprü</item>
+    </string-array>
+
+    <string-array name="p29">
+        <item>Şehir Merkezi</item>
+        <item>Ağın</item>
+        <item>Alacakaya</item>
+        <item>Arıcak</item>
+        <item>Baskil</item>
+        <item>Karakoçan</item>
+        <item>Keban</item>
+        <item>Kovancılar</item>
+        <item>Maden</item>
+        <item>Palu</item>
+        <item>Sivrice</item>
+    </string-array>
+
+    <string-array name="p30">
+        <item>Şehir Merkezi</item>
+        <item>Çayırlı</item>
+        <item>İliç</item>
+        <item>Kemah</item>
+        <item>Kemaliye</item>
+        <item>Otlukbeli</item>
+        <item>Refahiye</item>
+        <item>Tercan</item>
+        <item>Üzümlü</item>
+    </string-array>
+
+    <string-array name="p31">
+        <item>Şehir Merkezi</item>
+        <item>Aşkale</item>
+        <item>Aziziye</item>
+        <item>Çat</item>
+        <item>Hınıs</item>
+        <item>Horasan</item>
+        <item>İspir</item>
+        <item>Karaçoban</item>
+        <item>Karayazı</item>
+        <item>Köprüköy</item>
+        <item>Narman</item>
+        <item>Oltu</item>
+        <item>Olur</item>
+        <item>Palandöken</item>
+        <item>Pasinler</item>
+        <item>Pazaryolu</item>
+        <item>Şenkaya</item>
+        <item>Tekman</item>
+        <item>Tortum</item>
+        <item>Uzundere</item>
+        <item>Yakutiye</item>
+    </string-array>
+
+    <string-array name="p32">
+        <item>Şehir Merkezi</item>
+        <item>Alpu</item>
+        <item>Beylikova</item>
+        <item>Çifteler</item>
+        <item>Günyüzü</item>
+        <item>Han</item>
+        <item>İnönü</item>
+        <item>Mahmudiye</item>
+        <item>Mihalgazi</item>
+        <item>Mihalıççık</item>
+        <item>Odunpazarı</item>
+        <item>Sarıcakaya</item>
+        <item>Seyitgazi</item>
+        <item>Sivrihisar</item>
+        <item>Tepebaşı</item>
+    </string-array>
+
+    <string-array name="p33">
+        <item>Şehir Merkezi</item>
+        <item>Araban</item>
+        <item>İslahiye</item>
+        <item>Karkamış</item>
+        <item>Nizip</item>
+        <item>Nurdağı</item>
+        <item>Oğuzeli</item>
+        <item>Şahinbey</item>
+        <item>Şehitkamil</item>
+        <item>Yavuzeli</item>
+    </string-array>
+
+    <string-array name="p34">
+        <item>Şehir Merkezi</item>
+        <item>Alucra</item>
+        <item>Bulancak</item>
+        <item>Çamoluk</item>
+        <item>Çanakçı</item>
+        <item>Dereli</item>
+        <item>Doğankent</item>
+        <item>Espiye</item>
+        <item>Eynesil</item>
+        <item>Görele</item>
+        <item>Güce</item>
+        <item>Keşap</item>
+        <item>Piraziz</item>
+        <item>Şebinkarahisar</item>
+        <item>Tirebolu</item>
+        <item>Yağlıdere</item>
+    </string-array>
+
+    <string-array name="p35">
+        <item>Şehir Merkezi</item>
+        <item>Kelkit</item>
+        <item>Köse</item>
+        <item>Kürtün</item>
+        <item>Şiran</item>
+        <item>Torul</item>
+    </string-array>
+
+    <string-array name="p36">
+        <item>Şehir Merkezi</item>
+        <item>Çukurca</item>
+        <item>Şemdinli</item>
+        <item>Yüksekova</item>
+    </string-array>
+
+    <string-array name="p37">
+        <item>Şehir Merkezi</item>
+        <item>Altınözü</item>
+        <item>Antakya</item>
+        <item>Belen</item>
+        <item>Dörtyol</item>
+        <item>Erzin</item>
+        <item>Hassa</item>
+        <item>İskenderun</item>
+        <item>Kırıkhan</item>
+        <item>Kumlu</item>
+        <item>Reyhanlı</item>
+        <item>Samandağ</item>
+        <item>Yayladağı</item>
+    </string-array>
+
+    <string-array name="p38">
+        <item>Şehir Merkezi</item>
+        <item>Aralık</item>
+        <item>Karakoyunlu</item>
+        <item>Tuzluca</item>
+    </string-array>
+
+    <string-array name="p39">
+        <item>Şehir Merkezi</item>
+        <item>Aksu</item>
+        <item>Atabey</item>
+        <item>Eğirdir</item>
+        <item>Gelendost</item>
+        <item>Gönen</item>
+        <item>Keçiborlu</item>
+        <item>Senirkent</item>
+        <item>Sütçüler</item>
+        <item>Şarkikaraağaç</item>
+        <item>Uluborlu</item>
+        <item>Yalvaç</item>
+        <item>Yanişarbademli</item>
+    </string-array>
+
+    <string-array name="p40">
+        <item>Şehir Merkezi</item>
+        <item>Adalar</item>
+        <item>Arnavutköy</item>
+        <item>Ataşehir</item>
+        <item>Avcılar</item>
+        <item>Bağcılar</item>
+        <item>Bahçelievler</item>
+        <item>Bakırköy</item>
+        <item>Başakşehir</item>
+        <item>Bayrampaşa</item>
+        <item>Beşiktaş</item>
+        <item>Beykoz</item>
+        <item>Beylikdüzü</item>
+        <item>Beyoğlu</item>
+        <item>Büyükçekmece</item>
+        <item>Çatalca</item>
+        <item>Çekmeköy</item>
+        <item>Esenler</item>
+        <item>Esenyurt</item>
+        <item>Eyüp</item>
+        <item>Fatih</item>
+        <item>Gaziosmanpaşa</item>
+        <item>Güngören</item>
+        <item>Kadıköy</item>
+        <item>Kağıthane</item>
+        <item>Kartal</item>
+        <item>Küçükçekmece</item>
+        <item>Maltepe</item>
+        <item>Pendik</item>
+        <item>Sancaktepe</item>
+        <item>Sarıyer</item>
+        <item>Silivri</item>
+        <item>Sultanbeyli</item>
+        <item>Sultangazi</item>
+        <item>Şile</item>
+        <item>Şişli</item>
+        <item>Tuzla</item>
+        <item>Ümraniye</item>
+        <item>Üsküdar</item>
+        <item>Zeytinburnu</item>
+    </string-array>
+
+    <string-array name="p41">
+        <item>Şehir Merkezi</item>
+        <item>Aliağa</item>
+        <item>Balçova</item>
+        <item>Bayındır</item>
+        <item>Bayraklı</item>
+        <item>Bermaga</item>
+        <item>Beydağ</item>
+        <item>Bornova</item>
+        <item>Buca</item>
+        <item>Çeşme</item>
+        <item>Çiğli</item>
+        <item>Dikili</item>
+        <item>Foça</item>
+        <item>Gaziemir</item>
+        <item>Güzelbahçe</item>
+        <item>Karabağlar</item>
+        <item>Karaburun</item>
+        <item>Karşıyaka</item>
+        <item>Kemalpaşa</item>
+        <item>Kınık</item>
+        <item>Kiraz</item>
+        <item>Konak</item>
+        <item>Menderes</item>
+        <item>Menemen</item>
+        <item>Narlıdere</item>
+        <item>Ödemiş</item>
+        <item>Seferihisar</item>
+        <item>Selçuk</item>
+        <item>Tire</item>
+        <item>Torbalı</item>
+        <item>Urla</item>
+    </string-array>
+
+    <string-array name="p42">
+        <item>Şehir Merkezi</item>
+        <item>Afşin</item>
+        <item>Andırın</item>
+        <item>Çağlayancerit</item>
+        <item>Ekinözü</item>
+        <item>Elbistan</item>
+        <item>Göksun</item>
+        <item>Nurhak</item>
+        <item>Pazarcık</item>
+        <item>Türkoğlu</item>
+    </string-array>
+
+    <string-array name="p43">
+        <item>Şehir Merkezi</item>
+        <item>Eflani</item>
+        <item>Eskipazar</item>
+        <item>Ovacık</item>
+        <item>Safranbolu</item>
+        <item>Yenice</item>
+    </string-array>
+
+    <string-array name="p44">
+        <item>Şehir Merkezi</item>
+        <item>Ayrancı</item>
+        <item>Başyayla</item>
+        <item>Ermenek</item>
+        <item>Kazımkarabekir</item>
+        <item>Sarıveliler</item>
+    </string-array>
+
+    <string-array name="p45">
+        <item>Şehir Merkezi</item>
+        <item>Akyaka</item>
+        <item>Arpaçay</item>
+        <item>Digor</item>
+        <item>Kağızman</item>
+        <item>Sarıkamış</item>
+        <item>Selim</item>
+        <item>Susuz</item>
+    </string-array>
+
+    <string-array name="p46">
+        <item>Şehir Merkezi</item>
+        <item>Abana</item>
+        <item>Ağlı</item>
+        <item>Araç</item>
+        <item>Azdavay</item>
+        <item>Bozkurt</item>
+        <item>Cide</item>
+        <item>Çatalzeytin</item>
+        <item>Daday</item>
+        <item>Devrekani</item>
+        <item>Doğanyurt</item>
+        <item>Hanönü</item>
+        <item>İhsangazi</item>
+        <item>İnebolu</item>
+        <item>Küre</item>
+        <item>Pınarbaşı</item>
+        <item>Seydiler</item>
+        <item>Şenpazar</item>
+        <item>Taşköprü</item>
+        <item>Tosya</item>
+    </string-array>
+
+    <string-array name="p47">
+        <item>Şehir Merkezi</item>
+        <item>Akkışla</item>
+        <item>Bünyan</item>
+        <item>Develi</item>
+        <item>Felahiye</item>
+        <item>Hacılar</item>
+        <item>İncesu</item>
+        <item>Kocasinan</item>
+        <item>Melikgazi</item>
+        <item>Özvatan</item>
+        <item>Pınarbaşı</item>
+        <item>Sarıoğlan</item>
+        <item>Sarız</item>
+        <item>Talas</item>
+        <item>Tomarza</item>
+        <item>Yahyalı</item>
+        <item>Yaşilhisar</item>
+    </string-array>
+
+    <string-array name="p48">
+        <item>Şehir Merkezi</item>
+        <item>Bahşılı</item>
+        <item>Balışeyh</item>
+        <item>Çelebi</item>
+        <item>Delice</item>
+        <item>Karakeçili</item>
+        <item>Keskin</item>
+        <item>Sulakyurt</item>
+        <item>Yahşihan</item>
+    </string-array>
+
+    <string-array name="p49">
+        <item>Şehir Merkezi</item>
+        <item>Babaeski</item>
+        <item>Demirköy</item>
+        <item>Kofçaz</item>
+        <item>Lüleburgaz</item>
+        <item>Pehlivanköy</item>
+        <item>Pınarhisar</item>
+        <item>Vize</item>
+    </string-array>
+
+    <string-array name="p50">
+        <item>Şehir Merkezi</item>
+        <item>Akçakent</item>
+        <item>Akpınar</item>
+        <item>Boztepe</item>
+        <item>Çiçekdağı</item>
+        <item>Kaman</item>
+        <item>Mucur</item>
+    </string-array>
+
+    <string-array name="p51">
+        <item>Şehir Merkezi</item>
+        <item>Elbeyli</item>
+        <item>Musabeyli</item>
+        <item>Polateli</item>
+    </string-array>
+
+    <string-array name="p52">
+        <item>Şehir Merkezi</item>
+        <item>Başiskele</item>
+        <item>Çayırova</item>
+        <item>Darıca</item>
+        <item>Derince</item>
+        <item>Dilovası</item>
+        <item>Gebze</item>
+        <item>Gölcük</item>
+        <item>İzmit</item>
+        <item>Kandıra</item>
+        <item>Karamürsel</item>
+        <item>Kartepe</item>
+        <item>Körfez</item>
+    </string-array>
+
+    <string-array name="p53">
+        <item>Şehir Merkezi</item>
+        <item>Ahırlı</item>
+        <item>Akören</item>
+        <item>Akşehir</item>
+        <item>Altınekin</item>
+        <item>Beyşehir</item>
+        <item>Bokır</item>
+        <item>Cihanbeyli</item>
+        <item>Çeltik</item>
+        <item>Çumra</item>
+        <item>Derbent</item>
+        <item>Derebucak</item>
+        <item>Doğanhisar</item>
+        <item>Emirgazi</item>
+        <item>Ereğli</item>
+        <item>Güneysınır</item>
+        <item>Hadım</item>
+        <item>Halkapınar</item>
+        <item>Hüyük</item>
+        <item>Ilgın</item>
+        <item>Kadınhanı</item>
+        <item>Karapınar</item>
+        <item>Karatay</item>
+        <item>Kulu</item>
+        <item>Meram</item>
+        <item>Sarayönü</item>
+        <item>Selçuklu</item>
+        <item>Seydişehir</item>
+        <item>Taşkent</item>
+        <item>Tuzlukçu</item>
+        <item>Yalıhüyük</item>
+        <item>Yeniceoba</item>
+        <item>Yunak</item>
+    </string-array>
+
+    <string-array name="p54">
+        <item>Şehir Merkezi</item>
+        <item>Altınbaş</item>
+        <item>Aslanapa</item>
+        <item>Çavdarhisar</item>
+        <item>Domaniç</item>
+        <item>Dumlupınar</item>
+        <item>Emet</item>
+        <item>Gediz</item>
+        <item>Hisarcık</item>
+        <item>Pazarlar</item>
+        <item>Şaphane</item>
+        <item>Simav</item>
+        <item>Tavşanlı</item>
+    </string-array>
+
+    <string-array name="p55">
+        <item>Şehir Merkezi</item>
+        <item>Akçadağ</item>
+        <item>Arapgir</item>
+        <item>Arguvan</item>
+        <item>Battalgazi</item>
+        <item>Darende</item>
+        <item>Doğanşehir</item>
+        <item>Doğanyol</item>
+        <item>Hekimhan</item>
+        <item>Kale</item>
+        <item>Kuluncak</item>
+        <item>Pütürge</item>
+        <item>Yazıhan</item>
+        <item>Yeşilyurt</item>
+        <item>Gürün</item>
+    </string-array>
+
+    <string-array name="p56">
+        <item>Şehir Merkezi</item>
+        <item>Ahmetli</item>
+        <item>Akhisar</item>
+        <item>Alaşehir</item>
+        <item>Demirci</item>
+        <item>Gölmarmara</item>
+        <item>Gördes</item>
+        <item>Kırkağaç</item>
+        <item>Köprübaşı</item>
+        <item>Kula</item>
+        <item>Salihli</item>
+        <item>Sarıgöl</item>
+        <item>Saruhanlı</item>
+        <item>Selendi</item>
+        <item>Soma</item>
+        <item>Turgutlu</item>
+    </string-array>
+
+    <string-array name="p57">
+        <item>Şehir Merkezi</item>
+        <item>Dargeçit</item>
+        <item>Derik</item>
+        <item>Kızıltepe</item>
+        <item>Mazıdağı</item>
+        <item>Midyat</item>
+        <item>Nusaybin</item>
+        <item>Ömerli</item>
+        <item>Savur</item>
+        <item>Yeşilli</item>
+    </string-array>
+
+    <string-array name="p58">
+        <item>Şehir Merkezi</item>
+        <item>Akdeniz</item>
+        <item>Anamur</item>
+        <item>Aydıncık</item>
+        <item>Bozyazı</item>
+        <item>Çamlıyayla</item>
+        <item>Erdemli</item>
+        <item>Gülnar</item>
+        <item>Mezitli</item>
+        <item>Mut</item>
+        <item>Silifke</item>
+        <item>Tarsus</item>
+        <item>Toroslar</item>
+        <item>Yenişehir</item>
+    </string-array>
+
+    <string-array name="p59">
+        <item>Şehir Merkezi</item>
+        <item>Bodrum</item>
+        <item>Dalaman</item>
+        <item>Datça</item>
+        <item>Fethiye</item>
+        <item>Kavaklıdere</item>
+        <item>Köyceğiz</item>
+        <item>Marmaris</item>
+        <item>Milas</item>
+        <item>Ortaca</item>
+        <item>Ula</item>
+        <item>Yatağan</item>
+    </string-array>
+
+    <string-array name="p60">
+        <item>Şehir Merkezi</item>
+        <item>Bulanık</item>
+        <item>Hasköy</item>
+        <item>Korkut</item>
+        <item>Malazgirt</item>
+        <item>Varto</item>
+    </string-array>
+
+    <string-array name="p61">
+        <item>Şehir Merkezi</item>
+        <item>Acıgöl</item>
+        <item>Avanos</item>
+        <item>Derinkuyu</item>
+        <item>Gülşehir</item>
+        <item>Hacıbektaş</item>
+        <item>Kozaklı</item>
+        <item>Ürgüp</item>
+    </string-array>
+
+    <string-array name="p62">
+        <item>Şehir Merkezi</item>
+        <item>Altunhisar</item>
+        <item>Bor</item>
+        <item>Çamardı</item>
+        <item>Çiftlik</item>
+        <item>Ulukışla</item>
+    </string-array>
+
+    <string-array name="p63">
+        <item>Şehir Merkezi</item>
+        <item>Akkuş</item>
+        <item>Aybastı</item>
+        <item>Çamaş</item>
+        <item>Çatalpınar</item>
+        <item>Çaybaşı</item>
+        <item>Fatsa</item>
+        <item>Gölköy</item>
+        <item>Gülyalı</item>
+        <item>Gürgentepe</item>
+        <item>İkizce</item>
+        <item>Karadüz</item>
+        <item>Kabataş</item>
+        <item>Korgan</item>
+        <item>Kumru</item>
+        <item>Mesudiye</item>
+        <item>Perşembe</item>
+        <item>Ulubey</item>
+        <item>Ünye</item>
+    </string-array>
+
+    <string-array name="p64">
+        <item>Şehir Merkezi</item>
+        <item>Bahçe</item>
+        <item>Düziçi</item>
+        <item>Hasanbeyli</item>
+        <item>Kadirli</item>
+        <item>Sumbas</item>
+        <item>Toprakkale</item>
+    </string-array>
+
+    <string-array name="p65">
+        <item>Şehir Merkezi</item>
+        <item>Ardeşen</item>
+        <item>Çamlıhemşin</item>
+        <item>Çayeli</item>
+        <item>Derepazarı</item>
+        <item>Fındıklı</item>
+        <item>Güneysu</item>
+        <item>Hemşin</item>
+        <item>İkizdere</item>
+        <item>İyidere</item>
+        <item>Kalkandere</item>
+        <item>Pazar</item>
+    </string-array>
+
+    <string-array name="p66">
+        <item>Şehir Merkezi</item>
+        <item>Adapazarı</item>
+        <item>Akyazı</item>
+        <item>Arifiye</item>
+        <item>Erenler</item>
+        <item>Ferizli</item>
+        <item>Geyve</item>
+        <item>Hendek</item>
+        <item>Karapürçek</item>
+        <item>Karasu</item>
+        <item>Kaynarca</item>
+        <item>Kocaali</item>
+        <item>Pamukova</item>
+        <item>Sapanca</item>
+        <item>Serdivan</item>
+        <item>Söğütlü</item>
+        <item>Taraklı</item>
+    </string-array>
+
+    <string-array name="p67">
+        <item>Şehir Merkezi</item>
+        <item>Alaçam</item>
+        <item>Asarcık</item>
+        <item>Atakum</item>
+        <item>Ayvacık</item>
+        <item>Bafra</item>
+        <item>Canik</item>
+        <item>Çarşamba</item>
+        <item>Havza</item>
+        <item>İlkadım</item>
+        <item>Kavak</item>
+        <item>Ladik</item>
+        <item>Ondokuzmayıs</item>
+        <item>Salıpazarı</item>
+        <item>Tekkeköy</item>
+        <item>Terme</item>
+        <item>Vezirköprü</item>
+        <item>Yakakent</item>
+    </string-array>
+
+    <string-array name="p68">
+        <item>Şehir Merkezi</item>
+        <item>Aydınlar</item>
+        <item>Baykan</item>
+        <item>Eruh</item>
+        <item>Kurtalan</item>
+        <item>Pervari</item>
+        <item>Şirvan</item>
+    </string-array>
+
+    <string-array name="p69">
+        <item>Şehir Merkezi</item>
+        <item>Ayancık</item>
+        <item>Boyabat</item>
+        <item>Dikmen</item>
+        <item>Durağan</item>
+        <item>Erfelek</item>
+        <item>Gerze</item>
+        <item>Saraydüzü</item>
+        <item>Türkeli</item>
+    </string-array>
+
+    <string-array name="p70">
+        <item>Şehir Merkezi</item>
+        <item>Akıncılar</item>
+        <item>Altınyayla</item>
+        <item>Divriği</item>
+        <item>Doğanşar</item>
+        <item>Gemerek</item>
+        <item>Gölova</item>
+        <item>Hafik</item>
+        <item>İmranlı</item>
+        <item>Kangal</item>
+        <item>Koyulhisar</item>
+        <item>Suşehri</item>
+        <item>Şarkışla</item>
+        <item>Ulaş</item>
+        <item>Yıldızeli</item>
+        <item>Zara</item>
+        <item>Gürün</item>
+    </string-array>
+
+    <string-array name="p71">
+        <item>Şehir Merkezi</item>
+        <item>Akçakale</item>
+        <item>Birecik</item>
+        <item>Bozova</item>
+        <item>Ceylanpınar</item>
+        <item>Halfeti</item>
+        <item>Harran</item>
+        <item>Hilvan</item>
+        <item>Siverek</item>
+        <item>Suruç</item>
+        <item>Viranşehir</item>
+    </string-array>
+
+    <string-array name="p72">
+        <item>Şehir Merkezi</item>
+        <item>Beytüşşebap</item>
+        <item>Cizre</item>
+        <item>Güçlükonak</item>
+        <item>İdil</item>
+        <item>Silopi</item>
+        <item>Uludere</item>
+    </string-array>
+
+    <string-array name="p73">
+        <item>Şehir Merkezi</item>
+        <item>Çerkezköy</item>
+        <item>Çorlu</item>
+        <item>Hayrabolu</item>
+        <item>Malkara</item>
+        <item>Marmara-Ereğlisi</item>
+        <item>Muratlı</item>
+        <item>Saray</item>
+        <item>Şarköy</item>
+    </string-array>
+
+    <string-array name="p74">
+        <item>Şehir Merkezi</item>
+        <item>Almus</item>
+        <item>Artova</item>
+        <item>Başçiftlik</item>
+        <item>Erbaa</item>
+        <item>Niksar</item>
+        <item>Pazar</item>
+        <item>Reşadiye</item>
+        <item>Sulusaray</item>
+        <item>Turhal</item>
+        <item>Yeşilyurt</item>
+        <item>Zile</item>
+    </string-array>
+
+    <string-array name="p75">
+        <item>Şehir Merkezi</item>
+        <item>Akçaabat</item>
+        <item>Araklı</item>
+        <item>Arsin</item>
+        <item>Beşikdüzü</item>
+        <item>Çarşıbaşı</item>
+        <item>Çaykara</item>
+        <item>Dernekpazarı</item>
+        <item>Düzköy</item>
+        <item>Hayrat</item>
+        <item>Köprübaşı</item>
+        <item>Maçka</item>
+        <item>Of</item>
+        <item>Sürmene</item>
+        <item>Şalpazarı</item>
+        <item>Tonya</item>
+        <item>Vakfıkebir</item>
+        <item>Yomra</item>
+    </string-array>
+
+    <string-array name="p76">
+        <item>Şehir Merkezi</item>
+        <item>Çemişgezek</item>
+        <item>Hozat</item>
+        <item>Mazgirt</item>
+        <item>Nazimiye</item>
+        <item>Ovacık</item>
+        <item>Pertek</item>
+        <item>Pülümür</item>
+        <item>Tunceli</item>
+    </string-array>
+
+    <string-array name="p77">
+        <item>Şehir Merkezi</item>
+        <item>Banaz</item>
+        <item>Eşma</item>
+        <item>Karahallı</item>
+        <item>Sivaslı</item>
+        <item>Ulubey</item>
+    </string-array>
+
+    <string-array name="p78">
+        <item>Şehir Merkezi</item>
+        <item>Bahçesaray</item>
+        <item>Başkale</item>
+        <item>Çaldıran</item>
+        <item>Çatak</item>
+        <item>Edremit</item>
+        <item>Erciş</item>
+        <item>Gevaş</item>
+        <item>Gürpınar</item>
+        <item>Muradiye</item>
+        <item>Özalp</item>
+        <item>Saray</item>
+    </string-array>
+    
+    <string-array name="p79">
+        <item>Şehir Merkezi</item>
+        <item>Altınova</item>
+        <item>Armutlu</item>
+        <item>Çınarcık</item>
+        <item>Çiftlikköy</item>
+        <item>Termal</item>
+    </string-array>
+
+    <string-array name="p80">
+        <item>Şehir Merkezi</item>
+        <item>Akdağmadeni</item>
+        <item>Aydıncık</item>
+        <item>Boğazlıyan</item>
+        <item>Çandır</item>
+        <item>Çayıralan</item>
+        <item>Çekerek</item>
+        <item>Kadışehri</item>
+        <item>Saraykent</item>
+        <item>Sarıkaya</item>
+        <item>Sorgun</item>
+        <item>Şefaatli</item>
+        <item>Yenifakılı</item>
+        <item>Yerköy</item>
+    </string-array>
+
+    <string-array name="p81">
+        <item>Şehir Merkezi</item>
+        <item>Araplı</item>
+        <item>Çaycuma</item>
+        <item>Devrek</item>
+        <item>Gökçebey</item>
+        <item>Kilimli</item>
+        <item>Kozlu</item>
+        <item>Karadeniz-Ereğli</item>
+    </string-array>
+</resources>

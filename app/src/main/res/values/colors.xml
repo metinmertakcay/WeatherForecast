@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_theme">#67D9FF</color>
+    <color name="main_theme_karsit">#b5fddd</color>
+    <color name="spinner_color">#A9A9F5</color>
+    <color name="white">#F7E8E8</color>
+    <color name="red_light">#FF2D2F</color>
+    <color name="table_color">#253D36</color>
+    <color name="White">#FFFFFD</color>
+    <color name="Yemyesil">#17FF00</color>
+    <color name="Black">#000000</color>
+    <color name="Mor">#4639FF</color>
+    <color name="yesil">#ADFFA0</color>
+    <color name="mavi">#0047FF</color>
+    <color name="red">#FF0C00</color>
+    <color name="gri">#262626</color>
+    <color name="acik_koyu_mavi">#0088FF</color>
+</resources>
