@@ -13,3 +13,5 @@ Kullanıcı cihazın konum özelliğini kullanarak bulunduğu bölgenin hava dur
 Veriler siteden html parse edilerek çekildiği için site sayfasında bilgilerin çekildiği yerde gerçekleşecek bir değişim programın çalışmamasına neden olabilir.<br/>
 Hava durumu bilgisini gösteren resimler .svg formatındadır. Bu resimler .jpg formatına çevrilerek projeye dahil edilmiş ve kullanılmıştır.
 
+#### Ekran Görüntüleri ####
+Ekran görüntüleri için [tıklayınız.](https://github.com/metinmertakcay/WeatherForecast/tree/master/images)
