@@ -172,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 province = city_name;
                 selectedProvince = city_name;
                 selectedProvince = convertString(selectedProvince);
+                selectedDistrict = "";
                 createNewURL();
                 new Data(MainActivity.this).execute();
             }
